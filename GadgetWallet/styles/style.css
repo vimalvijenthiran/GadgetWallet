@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px 5px 15px; 
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    background-color: #000;
+    width: 465px;
+}
+
+.logo{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brand{
+    padding-bottom: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+.logo span{
+     color: chocolate;
+}
+
+.search-container {
+    display: inline-flex;
+    padding: 8px;
+    border: solid #ffffff87 2px ;
+    border-radius: 10px;
+    width:500px;
+    height:30px;
+    background-color: #000;
+}
+
+.search-box{
+    color: white;
+}
+
+.sign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.globe {
+    width: 25px;
+    height: 25px;
+    margin-right:50px;
+    padding: 10px;
+}
+
+.user, .bell{
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    padding: 10px;
+} 
+/* .bell{
+  width: 10px;
+  height: 10px;
+  /* margin: auto; */
+  /* padding-right: 10px; 
+} */
+ .signin{
+    padding: 10px 15px;
+    margin: 10px;
+    border: solid #fff 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    background-color: #000;
+}
+
+.signup {
+    padding: 10px 15px;
+    margin: 10px;
+    border: solid #fff 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#000;
+    background-color: #fff;
+
+} 
+/*Starts header styling*/
+#header{ 
+    position: relative;
+    width: 100%;
+    height:695px; 
+    background-image: url("../assets/Header_img.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.box1{
+    background-color: rgba(30, 28, 28, 0.8);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:100%;
+    height:200px;
+}
+
+.box1 ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.box1 h2{
+    margin: 0;
+    color: white;
+    padding:20px 20px 0 20px;
+}
+.box1 p{
+    color:white;
+    font-size: 12px;
+}
+
+.box1 .btn1 {
+    padding: 10px 15px;
+    margin: 10px;
+    border: solid #000000 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    background-color: #000000;
+    font-weight: bold;
+
+}
+
+/*ends*/
+/*starts section 1 styling*/
+.row{
+    margin:100px 50px 100px 200px;
+    padding: 20px;
+    background-color: #F4E3C9;
+    width:70%;
+    height:50%; 
+
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  
+  }
+  .column .icons{
+      width:50px;
+      height:50px;
+      margin-left: 150px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: ""; 
+    display: table;
+    clear: both;
+  }
+  .column h4{
+    margin:15px 0px 0px 70px;
+    
+  } 
+
+  .column p{
+    font-size: 10px;
+    display: flex;
+    text-align:center;
+   
+  }
+/*Section 1 ends*/
+/*Here starts Section 2*/
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .image-container {
+    flex: 1;
+    margin-right: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+    border-radius: 8px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+/* here start footer styles */
+.footer {
+    /* background-color: #5e5959;  */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+.footer h2{
+    color:#000;
+}
+.footer p{
+    color:#000;
+    font-size: 11px;
+}
+  .category-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .category-item {
+    text-align: center;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #746d6d81;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle img {
+    width: 25px; /* Adjust the size of the icon */
+    height: 25px;
+  }
